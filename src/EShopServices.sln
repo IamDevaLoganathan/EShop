@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalogs", "Catalogs", "{0D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalogs.API", "Catalogs.API\Catalogs.API.csproj", "{6A5415BD-CB5E-42E6-975B-FF1579256231}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EShopCore", "EShopCore", "{749912AB-FE85-4177-A95C-5F2B716C906F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopCore", "EShopCore\EShopCore.csproj", "{F6BC274C-519A-4B64-83DC-C73612BC7917}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,18 @@ Global
 		{6A5415BD-CB5E-42E6-975B-FF1579256231}.Release|x64.Build.0 = Release|Any CPU
 		{6A5415BD-CB5E-42E6-975B-FF1579256231}.Release|x86.ActiveCfg = Release|Any CPU
 		{6A5415BD-CB5E-42E6-975B-FF1579256231}.Release|x86.Build.0 = Release|Any CPU
+		{F6BC274C-519A-4B64-83DC-C73612BC7917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6BC274C-519A-4B64-83DC-C73612BC7917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6BC274C-519A-4B64-83DC-C73612BC7917}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F6BC274C-519A-4B64-83DC-C73612BC7917}.Debug|x64.Build.0 = Debug|Any CPU
+		{F6BC274C-519A-4B64-83DC-C73612BC7917}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F6BC274C-519A-4B64-83DC-C73612BC7917}.Debug|x86.Build.0 = Debug|Any CPU
+		{F6BC274C-519A-4B64-83DC-C73612BC7917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6BC274C-519A-4B64-83DC-C73612BC7917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6BC274C-519A-4B64-83DC-C73612BC7917}.Release|x64.ActiveCfg = Release|Any CPU
+		{F6BC274C-519A-4B64-83DC-C73612BC7917}.Release|x64.Build.0 = Release|Any CPU
+		{F6BC274C-519A-4B64-83DC-C73612BC7917}.Release|x86.ActiveCfg = Release|Any CPU
+		{F6BC274C-519A-4B64-83DC-C73612BC7917}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,5 +54,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0DCAF73D-7ADA-418B-B89A-2D5E39735859} = {75813ABC-5F35-46C9-93F5-F1DE06325134}
 		{6A5415BD-CB5E-42E6-975B-FF1579256231} = {0DCAF73D-7ADA-418B-B89A-2D5E39735859}
+		{F6BC274C-519A-4B64-83DC-C73612BC7917} = {749912AB-FE85-4177-A95C-5F2B716C906F}
 	EndGlobalSection
 EndGlobal
